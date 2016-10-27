@@ -13,5 +13,6 @@
 
     django-admin startproject mysite
     cd mysite
+    python manage.py migrate
     ../bin/python manage.py runserver
 
